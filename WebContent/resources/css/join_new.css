@@ -1,0 +1,178 @@
+body{margin: 0;padding: 0;
+    font-family: 'Nanum Gothic', sans-serif;}
+        section{
+            width: 100%;
+            height: auto;
+            /* margin-top: 50px; */
+        }
+        img{
+            max-width: 100%;
+            height: auto;
+            display: block;
+        }
+        .join-container1{
+            display: inline-block;
+            width: 40%;
+            height: 1100px;
+            /* margin-left: 50px; */
+            text-align: center;
+            background-color: rgb(243, 243, 243);  
+            /* background: url(images/join-bg1.jpg) no-repeat; */
+            
+        }
+        .join-back{
+            width: 38px; margin-left:20px;margin-top: 20px;
+        }
+        .join-title{
+            width: 100%;
+            height: 40px;
+            font-size: 25px;
+            display: block;
+            font-weight: 300;
+            color: rgb(42, 173, 24);
+        }
+        .join-box{
+            
+            width: 60%;
+            height: auto;
+            margin-left: 20%;
+            margin-top: 280px;
+        }
+        
+        .join-container2{
+            display: inline-block;
+            width: 50%;
+            height: auto;
+            /* background-color: rgb(199, 181, 184); */
+            position: absolute;
+        }
+        .input-text{
+            border: none;
+            border-bottom: 2px solid rgb(212, 212, 212);
+            background: none;
+            width: 50%;
+            margin-left: 15%;
+            display: block;
+            padding-top: 40px;
+            outline: none;
+            /* background-color: cadetblue; */
+        }
+        .input-text:focus{
+            border-bottom: 2px solid rgb(74, 131, 41);
+        }
+        .btnALl{
+            border: none;
+            padding: 10px 30px;
+            border-radius: 20px;
+            background-color: rgb(89, 197, 95);
+            color: rgb(255, 255, 255);
+            font-size:15px;
+            font-weight: bold;
+        }
+        .btnALl:hover, button[type=submit]:hover{
+            background-color: rgb(48, 99, 51);
+            color: white;
+        }
+        button[type=submit]{
+         	border: none;
+            padding: 18px 150px;
+            border-radius: 28px;
+            background-color: rgb(89, 197, 95);
+            color: rgb(255, 255, 255);
+            font-size:15px;
+            font-weight: bold;
+        }
+        .property{
+            /* background-color: rgb(151, 182, 171); */
+            position: relative;
+            margin-top:10px;
+        }
+        .property-input{
+            height: 60px;
+            /* background-color: rgb(82, 143, 125); */
+        }
+        
+        .property-input label{
+            /* background-color: chartreuse; */
+            position: absolute;
+            left: 15%;
+            font-size: 15px;
+            font-weight: 700;
+            color: rgb(78, 143, 40);
+            top: 38%;
+            transition: 0.3s;
+        }
+        .property-input button{
+            position: absolute;
+            left: 68%;
+            top: 20%;
+        }
+        .property-warning{
+             
+        }
+       
+        .address{
+            position: relative;
+            margin-top:30px;
+            height: 200px;
+        }
+        .address label{
+            top: 0;
+        }
+        .address button{
+            top:10%;
+        }
+        .btn-submit{
+            margin-left: 15%;
+            margin-top: 50px;
+        }
+
+        footer{
+            width: 100%;
+            height: 400px;
+            
+        }
+        .footer-line{
+            margin: 0;
+            background-color: #eee;
+            border: 0 none;
+            color: rgb(223, 223, 223);
+            height: 1px;
+        }
+        .error{
+  margin-left: 40px;
+  margin-top:20px;
+  font-size:14px;
+  color:red;
+}
+
+        @media (max-width: 880px) {
+            .join-container1{
+                display: block;
+                width: 100%;
+                height: 150px;
+                /* margin-left: 50px; */
+                text-align: center;
+                background-color: rgb(243, 243, 243);  
+            }
+            .join-back{
+                margin-top: 0;
+                padding-top: 10px;
+            }
+            .join-box{
+                margin-top: 10px;
+            }
+            .join-title{font-size: 22px;
+                font-weight: 600;}
+            .join-box img{display: none;}
+            .join-container2{
+                display: block;
+                width: 100%;
+                position: relative;
+            }
+            footer{
+                margin-top: 100px;
+            }
+            
+            
+        }
