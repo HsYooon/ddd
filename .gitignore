@@ -14,6 +14,9 @@ local.properties
 .loadpath
 .recommenders
 
+target/*
+WebContent/WEB-INF/properties/*
+
 # External tool builders
 .externalToolBuilders/
 
