@@ -1,5 +1,8 @@
 # Portfolio
+포트폴리오 #planty
+Check out the [live site here →](http://wwww.naver.com)
 
-> 포트폴리오 #planty
+<img src="https://user-images.githubusercontent.com/52145267/111436651-9196bb80-8745-11eb-9008-827f61216ce9.gif"  width="700"/>
 
-<img src="https://user-images.githubusercontent.com/52145267/111434051-6eb6d800-8742-11eb-9bb1-a4a161586d3b.gif"  width="700"/>
+## About
+설명
