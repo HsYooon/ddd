@@ -5,6 +5,7 @@ Check out the [live site here →](http://wwww.naver.com)
 <img src="https://user-images.githubusercontent.com/52145267/111436651-9196bb80-8745-11eb-9008-827f61216ce9.gif"  width="700"/>
 
 ## Description
+ <img src="https://img.shields.io/badge/Spring-6DB33F?style=flat-square&logo=Spring&logoColor=white"/> <img src="https://img.shields.io/badge/Java-B1361E?style=flat-square&logo=Java&logoColor=white"/> <img src="https://img.shields.io/badge/JavaScript-FF9900?style=flat-square&logo=JavaScript&logoColor=white"/> <img src="https://img.shields.io/badge/CSS-1572B6?style=flat-square&logo=CSS3&logoColor=white"/> <img src="https://img.shields.io/badge/MySQL-27A1C5?style=flat-square&logo=MySQL&logoColor=white"/> <img src="https://img.shields.io/badge/AWS-333333?style=flat-square&logo=Amazon-AWS&logoColor=white"/> <img src="https://img.shields.io/badge/Ubuntu-FC60A8?style=flat-square&logo=Ubuntu&logoColor=white"/> <img src="https://img.shields.io/badge/Apache Tomcat-9F55FF?style=flat-square&logo=Apache-Tomcat&logoColor=white"/>
 
 > Planty(플랜티)는 기념일을 잊지 않고 챙길 수 있도록 도와주는 생화 주문 웹 애플리케이션으로 회원이 >등록한 기념일 전에 미리 메일로 알림을 보내고 사이트를 통해 꽃을 구매할 수 있는 
 > 쇼핑몰 입니다. 
@@ -15,5 +16,3 @@ Check out the [live site here →](http://wwww.naver.com)
 - **위시리스트 & 장바구니** - 위시리스트와 장바구니 상품의 `[추가 - 수정 -변경 - 삭제]` 가 가능합니다
 - **결제** - 구매 상품에 대해 `적립금 & 쿠폰 적용` 이 가능하며 `전자 영수증 생성` 으로 주문을 확인할 수 있습니다 
 
-
-<img src="https://img.shields.io/badge/Spring-6DB33F?style=flat-square&logo=Spring&logoColor=white"/> <img src="https://img.shields.io/badge/Java-B1361E?style=flat-square&logo=Java&logoColor=white"/> <img src="https://img.shields.io/badge/JavaScript-FF9900?style=flat-square&logo=JavaScript&logoColor=white"/> <img src="https://img.shields.io/badge/CSS-1572B6?style=flat-square&logo=CSS3&logoColor=white"/> <img src="https://img.shields.io/badge/MySQL-27A1C5?style=flat-square&logo=MySQL&logoColor=white"/> <img src="https://img.shields.io/badge/AWS-333333?style=flat-square&logo=Amazon-AWS&logoColor=white"/> <img src="https://img.shields.io/badge/Ubuntu-FC60A8?style=flat-square&logo=Ubuntu&logoColor=white"/> <img src="https://img.shields.io/badge/Apache Tomcat-9F55FF?style=flat-square&logo=Apache-Tomcat&logoColor=white"/>
