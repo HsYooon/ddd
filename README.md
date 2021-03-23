@@ -16,10 +16,10 @@ Planty(플랜티)는 기념일을 잊지 않고 챙길 수 있도록 도와주�
 
 
 <img src="https://img.shields.io/badge/Spring-6DB33F?style=flat-square&logo=Spring&logoColor=white"/>
-<img src="https://img.shields.io/badge/Java-007396?style=flat-square&logo=Java&logoColor=white"/>
+<img src="https://img.shields.io/badge/Java-B1361E?style=flat-square&logo=Java&logoColor=white"/>
 <img src="https://img.shields.io/badge/JavaScript-FF9900?style=flat-square&logo=JavaScript&logoColor=white"/>
 <img src="https://img.shields.io/badge/CSS-1572B6?style=flat-square&logo=CSS3&logoColor=white"/>
 <img src="https://img.shields.io/badge/MySQL-27A1C5?style=flat-square&logo=MySQL&logoColor=white"/>
-<img src="https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=Amazon-AWS&logoColor=white"/>
+<img src="https://img.shields.io/badge/AWS-333333?style=flat-square&logo=Amazon-AWS&logoColor=white"/>
 <img src="https://img.shields.io/badge/Ubuntu-FC60A8?style=flat-square&logo=Ubuntu&logoColor=white"/>
 <img src="https://img.shields.io/badge/Apache Tomcat-9F55FF?style=flat-square&logo=Apache-Tomcat&logoColor=white"/>
