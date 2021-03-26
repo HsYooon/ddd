@@ -1,6 +1,6 @@
 # :rocket: Portfolio 
-:white_check_mark: **Planty 바로가기** [Live Site Here](http://54.180.95.234:8888/planty) :arrow_right:
-TEST -> ID:planty PW:planty00^
+:white_check_mark: **Planty 바로가기** [Live Site Here](http://54.180.95.234:8888/planty) :arrow_right:  
+:white_check_mark: **TEST 정보** ID: planty PW: planty00^
 
 <img src="https://user-images.githubusercontent.com/52145267/111436651-9196bb80-8745-11eb-9008-827f61216ce9.gif"  width="700"/>
 
