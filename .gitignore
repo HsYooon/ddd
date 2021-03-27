@@ -2,6 +2,29 @@
 # Created by https://www.toptal.com/developers/gitignore/api/eclipse
 # Edit at https://www.toptal.com/developers/gitignore?templates=eclipse
 
+###Intellij###
+
+# User-specific stuff
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/**/usage.statistics.xml
+.idea/**/dictionaries
+.idea/**/shelf
+
+# Generated files
+.idea/**/contentModel.xml
+
+# Sensitive or high-churn files
+.idea/**/dataSources/
+.idea/**/dataSources.ids
+.idea/**/dataSources.local.xml
+.idea/**/sqlDataSources.xml
+.idea/**/dynamic.xml
+.idea/**/uiDesigner.xml
+.idea/**/dbnavigator.xml
+
+*.iml
+
 ### Eclipse ###
 .metadata
 bin/
@@ -15,7 +38,7 @@ local.properties
 .recommenders
 
 target/*
-WebContent/WEB-INF/properties/*
+
 
 # External tool builders
 .externalToolBuilders/
