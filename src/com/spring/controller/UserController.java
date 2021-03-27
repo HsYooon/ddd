@@ -144,14 +144,19 @@ public class UserController {
 			BindingResult result, HttpSession session) {
 
 		if (result.hasErrors()) {
+			
+			if(userService.checkUserId(loginUserDTO.getId())) {
+				return "/user/loginResult";
+			}
 
 			LoginAuthDTO loginAuthDTO = userService.getLoginUser(loginUserDTO);
-			System.out.println(loginAuthDTO.toString());
 			
+			//인증이 완료되지 않은 사용자
 			if(loginAuthDTO.getAuthStatus() == 0) {
-				System.out.println("인증되지 않은 사용자입니다. 이메일 인증을 해주세요 ");
-				return "redirect:/";
+				
+				return "redirect:/join/joinResult";
 			}
+			
 			
 			String password = loginUserDTO.getPw1();
 			if (passwordEncoder.matches(password, loginAuthDTO.getPw()) == true) {
