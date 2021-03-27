@@ -2,7 +2,7 @@
 :white_check_mark: **Planty 바로가기** [Live Site Here](http://54.180.95.234:8888/planty) :arrow_right:  
 :white_check_mark: **TEST 정보** ID: planty PW: planty00^
 
-![Uploading 완2-883x480.gif…]()
+
 
 
 ## Description
