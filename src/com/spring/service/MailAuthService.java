@@ -1,18 +1,15 @@
 package com.spring.service;
 
-import java.io.UnsupportedEncodingException;
 import java.time.LocalDateTime;
 import java.util.ArrayList;
-import java.util.List;
 import java.util.Random;
 
-import javax.mail.MessagingException;
-
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.context.annotation.PropertySource;
 import org.springframework.stereotype.Service;
 
 import com.amazonaws.services.simpleemail.AmazonSimpleEmailService;
-import com.amazonaws.services.simpleemail.model.SendEmailResult;
 import com.spring.dto.SenderDTO;
 import com.spring.dto.user.LoginAuthDTO;
 import com.spring.dto.user.LoginDTO;
@@ -115,7 +112,6 @@ public class MailAuthService {
 	private UserDAO userDAO;
 	
 	
-	
 	private int size;
 	
 	private String getKey(int size) {
@@ -145,19 +141,27 @@ public class MailAuthService {
   	public String sendAuthMail(String email,LocalDateTime now) {
   		
   		String authKey = getKey(6);
-  		String from = "sssu0000@gmail.com";
-  		ArrayList<String> to = new ArrayList<>();
-        to.add(email);
-        String subject = "회원가입 인증메일";
-        String content = "<p>아래 링크를 클릭하시면 이메일 인증이 완료됩니다</p>" + "<a href='http://localhost:8080/planty-1.0/join/signUpConfirm?email=" + email
-        		+ "&authKey=" + authKey + "' target='_blenk'>이메일 인증 확인</a>" 
-        		+ "<p>이메일은 " + now.plusMinutes(30) + "까지 유효합니다</p>";
-        
+		
+  		MailUtils mailUtils = new MailUtils(); 
+		String from = mailUtils.getFrom();
+		
+		ArrayList<String> to = new ArrayList<>();
+		to.add(email);
+		 
+        String subject = "[planty - 회원가입 인증메일]";
+	
+        String content = "<div style='margin: 30px 30px;background-color: rgb(252, 245, 235);border: 1px solid #ddd;display: inline-block;padding: 45px 20px;'>" 
+        			+ "<p>&#9989; 아래 링크를 클릭하시면 이메일 인증이 완료됩니다</p>"
+        		    + "&#8594; <a href='http://54.180.95.234:8888/planty/join/signUpConfirm?email=" + email + "&authKey=" + authKey 
+        		    + "'><span style='background-color: rgb(200, 233, 123); font-size: 23px;'>이메일 인증 완료 </span></a>"
+        			+ "<p>[이 메일은 <strong>"+ now.plusMinutes(30) + "</strong> 까지 유효합니다]</p></div>";
        
-        SenderDTO senderDTO = new SenderDTO(from, to, subject, content);
         
-        amazonSimpleEmailService.sendEmail(senderDTO.toSendRequestDto());
-        
+
+  		
+  		SenderDTO senderDTO = new SenderDTO(from, to, subject, content);
+		amazonSimpleEmailService.sendEmail(senderDTO.toSendRequestDto());
+		 
   
   		return authKey;
   	}

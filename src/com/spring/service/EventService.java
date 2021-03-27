@@ -40,10 +40,7 @@ public class EventService {
 		
 	}
 	
-	/*
-	 * public SendEmailDTO selectSendEmail(Timestamp time) { return
-	 * eventRepository.selectSendEmail(time); }
-	 */
+
 	
 	public ArrayList<EventDTO> getEventAll(int userNum) {
 		return eventRepository.getEventAll(userNum);

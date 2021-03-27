@@ -3,12 +3,64 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="0124107a-0f4d-466c-a9f7-0f28b8678723" name="Default Changelist" comment="" />
+    <list default="true" id="0124107a-0f4d-466c-a9f7-0f28b8678723" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_amazonaws_aws_java_sdk_core_1_11_966.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_amazonaws_aws_java_sdk_ses_1_11_966.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_amazonaws_jmespath_java_1_11_966.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_dataformat_jackson_dataformat_cbor_2_6_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__joda_time_joda_time_2_8_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__software_amazon_ion_ion_java_1_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/planty.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/WEB-INF/view/couponPage.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/view/couponPage.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/WEB-INF/view/home.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/view/home.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/WEB-INF/view/myPage.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/view/myPage.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/WEB-INF/view/order.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/view/order.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/WEB-INF/view/shop.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/view/shop.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/WEB-INF/view/user/join.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/view/user/join.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/WEB-INF/view/user/joinResult.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/view/user/joinResult.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/resources/images/5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/resources/images/5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/resources/images/5_thumb.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/resources/images/5_thumb.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/spring/config/RootAppContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/spring/config/RootAppContext.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/spring/service/EventMailSendService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/spring/service/EventMailSendService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/spring/service/EventService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/spring/service/EventService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/spring/service/MailAuthService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/spring/service/MailAuthService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/spring/utill/MailUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/spring/utill/MailUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/spring/utill/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/spring/utill/Task.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -23,6 +75,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -35,5 +88,16 @@
       <updated>1606549584108</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

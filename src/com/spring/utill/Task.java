@@ -25,8 +25,9 @@ public class Task {
 	@Autowired
 	private EventMapper eventMapper;
 	
-//	@Scheduled(fixedRate=10000)
-	@Scheduled(cron = "0 5 9 * * *")
+
+	@Scheduled(cron = "0 0 18 * * *")
+//	@Scheduled(cron = "0 0/1 * * * *")
 	public void sendEventEmail() {
 		
 	
@@ -36,15 +37,14 @@ public class Task {
 		List<SendEventEmailDTO> list = eventMapper.selectSendEventEmail(today);
 		
 		if(list.isEmpty()) {
-			System.out.println("list is empty!!");
+			// 이벤트가 있는 회원이 없을때
 		}else {
 			Iterator<SendEventEmailDTO> iter = list.iterator(); 
 			
 			while(iter.hasNext()) {
 				SendEventEmailDTO dto = iter.next();
 				eventMailSendService.sendEventMail(dto);
-				
-				
+								
 			}
 		}
 		

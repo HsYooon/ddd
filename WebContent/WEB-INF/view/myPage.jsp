@@ -59,7 +59,7 @@
                     </tr>
                     <tr>
                         <td class="info-td"><a class="mypage-info-a" href="${root}cart">${cartCount}</a></td>
-                        <td class="info-td"><a class="mypage-info-a" href="${root}userLike">${userLikeListCount }</a></td>
+                        <td class="info-td"><a class="mypage-info-a" href="${root}userlike">${userLikeListCount }</a></td>
                         <td class="info-td"><a class="mypage-info-a" href="${root }couponPage">${cpCount}</a></td>
                         <td class="info-td">
                         <c:set var="tp" value="${totalPoint}" />

@@ -7,24 +7,24 @@
 <meta charset="EUC-KR">
 <title>Planty</title>
 <%@include file="../topBar.jsp"%>
-<style>
-        .join-result-container{text-align: center; margin-bottom: 50px;margin-top:80px}
-        .join-result-container > img{
+    <style>
+        .login-result-container{text-align: center; margin-bottom: 50px}
+        .login-result-container > img{
             width: 200px;
         }
-        .join-result-span1{
+        .login-result-span1{
             display:block;
             margin-top: 20px;
             font-size: 38px;
         }
-        .join-result-span2{
+        .login-result-span2{
             display:block;
             margin-top: 15px;
             font-size: 25px;
             margin-bottom: 50px;
             
         }
-        .join-result-btn{
+        .login-result-btn{
             
             border-radius: 15px;
             padding: 20px 15px;
@@ -34,19 +34,19 @@
             font-weight: 400;
             box-shadow: rgb(214, 214, 214) 2px 2px 8px 0px;
         }
-        .join-result-btn:hover{
+        .login-result-btn:hover{
             background-color: rgb(80, 160, 96);
             color:rgb(255, 255, 255);
         }
     </style>
 </head>
 <body>
-	<div class="join-result-container">
-        <img src="${root}images/email.png" alt="">
-        <span class="join-result-span1">"인증메일이 발송됐습니다"</span>
-        <span class="join-result-span2" >30분내에 인증해야 회원가입이 완료됩니다</span>
-        <a href="${root}"><span class="join-result-btn">메인으로</span></a>
+    <div class="login-result-container">
+        <img src="images/error.png" alt="">
+        <span class="login-result-span1">"가입되지 않은 사용자입니다"</span>
+        <span class="login-result-span2" >지금 가입하세요!</span>
+        <a href="${root}/join"><span class="login-result-btn">회원가입</span></a>
     </div>
- <%@include file="../footBar.jsp"%>
+    <%@include file="../footBar.jsp"%>
 </body>
 </html>

@@ -6,10 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="planty" />
         <module name="selectOne_shop" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="planty" target="1.8" />
       <module name="selectOne_shop" target="1.8" />
     </bytecodeTargetLevel>
   </component>
