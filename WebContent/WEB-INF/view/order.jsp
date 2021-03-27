@@ -465,7 +465,7 @@
                                  <option value="SGM">SSG MONEY</option>
                            </select></li>
                            <li><input type="radio" class="chk-rdo"
-                              name="radio_paymethod" value="C"> 신용카드 <em><span
+                              name="radio_paymethod" value="creditCard"> 신용카드 <em><span
                                  class="op-card-dc-price fc-red"></span></em></li>
                            <li><input type="radio" class="chk-rdo"
                               name="radio_paymethod" value="B" checked="checked" /> 무통장입금 <em><span
@@ -474,9 +474,9 @@
                               class="w280 MK_bank_select_list MK_pay_add_choice">
                                  <option value="">입금 계좌번호 선택(반드시 주문자 성함으로 입금)</option>
                                  <option value="농협중앙회 123456789123456 (예금주:주식회사수확행)">농협중앙회
-                                    123456789123456 (예금주:주식회사수확행)</option>
+                                    123456789123456 (예금주:planty)</option>
                                  <option value="국민은행 123456789123456 (예금주:주식회사수확행)">국민은행
-                                    123456789123456 (예금주:주식회사수확행)</option>
+                                    123456789123456 (예금주:planty)</option>
                            </select></li>
                            <li><input type="radio" class="chk-rdo"
                               name="radio_paymethod" value="D"> 휴대폰 결제 <em><span

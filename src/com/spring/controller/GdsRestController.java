@@ -48,9 +48,10 @@ public class GdsRestController {
 	 public Map<String,String> purchaseCheck(@RequestBody Map<String, Object> param){ 
 		 String gdsNum = (String) param.get("gdsNum");
 		 String userNum = (String) param.get("userNum");
-	  
+	  System.out.println("gdsNum: " + gdsNum);
+	  System.out.println("userNum: " + userNum);
 	 Map <String,String> result = new HashMap<String, String>();
-	 result.put("result", "result");
+	 result.put("result", "success");
 	 return result; }
 	 
 	 

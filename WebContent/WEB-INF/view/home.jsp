@@ -65,11 +65,11 @@
                         <svg focusable="false" viewBox="0 0 24 24" class="range-revamp-svg-icon" aria-hidden="true">
                             <path fill-rule="evenodd" clip-rule="evenodd" d="M16.4153 12.0003L8.41407 20.0011L6.9999 18.5868L13.5869 12.0002L7.00097 5.41339L8.41528 3.99927L16.4153 12.0003Z"></path>
                         </svg><br>
-                        <a href="#">
-                            스카비오사<br>
+                        <a href="${root }shop?gds=1">
+                            <span style="color:#D74E7C;font-weight:bold">Peony</span><br>
                         </a>
-                        <span style="display: block;">산토끼꽃</span>
-                        <span>2,500</span>
+                        <span style="display: block;">작약</span>
+                        <span>2,000</span>
                     </div> 
                 </div>
                 <div class="area">
@@ -81,11 +81,11 @@
                         <svg focusable="false" viewBox="0 0 24 24" class="range-revamp-svg-icon" aria-hidden="true">
                             <path fill-rule="evenodd" clip-rule="evenodd" d="M16.4153 12.0003L8.41407 20.0011L6.9999 18.5868L13.5869 12.0002L7.00097 5.41339L8.41528 3.99927L16.4153 12.0003Z"></path>
                         </svg><br>
-                        <a href="#">
-                            뉴던<br>
+                        <a href="${root }shop?gds=2">
+                            <span style="color:#BB352F;font-weight:bold">Rose</span><br>
                         </a>
-                        <span style="display: block;">장미</span>
-                        <span>3,500</span>
+                        <span style="display: block;">뉴던</span>
+                        <span>2,500</span>
                     </div> 
                 </div>
       
@@ -104,11 +104,11 @@
                         <svg focusable="false" viewBox="0 0 24 24" class="range-revamp-svg-icon" aria-hidden="true">
                             <path fill-rule="evenodd" clip-rule="evenodd" d="M16.4153 12.0003L8.41407 20.0011L6.9999 18.5868L13.5869 12.0002L7.00097 5.41339L8.41528 3.99927L16.4153 12.0003Z"></path>
                         </svg><br>
-                        <a href="#">
-                            민트<br>
+                        <a href="${root }shop?gds=7">
+                            <span style="color:#5B8F8A;font-weight:bold">Mint</span><br>
                         </a>
                         <span style="display: block;">허브</span>
-                        <span>3,500</span>
+                        <span>5,000</span>
                     </div> 
                 </div>
                 
@@ -127,11 +127,11 @@
                             <svg focusable="false" viewBox="0 0 24 24" class="range-revamp-svg-icon" aria-hidden="true">
                                 <path fill-rule="evenodd" clip-rule="evenodd" d="M16.4153 12.0003L8.41407 20.0011L6.9999 18.5868L13.5869 12.0002L7.00097 5.41339L8.41528 3.99927L16.4153 12.0003Z"></path>
                             </svg><br>
-                            <a href="#">
-                                야곱세니<br>
-                            </a>
-                            <span style="display: block;">다육이</span>
-                            <span>4,500</span>
+                            <a href="${root }shop?gds=8">
+                            <span style="color:#2F643F;font-weight:bold">Chungpepe</span><br>
+                       		</a>
+                            <span style="display: block;">청페페</span>
+                            <span>3,000</span>
                         </div> 
                     </div> 
                 </div>
@@ -148,11 +148,11 @@
                             <svg focusable="false" viewBox="0 0 24 24" class="range-revamp-svg-icon" aria-hidden="true">
                                 <path fill-rule="evenodd" clip-rule="evenodd" d="M16.4153 12.0003L8.41407 20.0011L6.9999 18.5868L13.5869 12.0002L7.00097 5.41339L8.41528 3.99927L16.4153 12.0003Z"></path>
                             </svg><br>
-                            <a href="${root }shop?gds=3">
-                                맥시밀리언<br>
-                            </a>
-                            <span style="display: block;">해바라기</span>
-                            <span>4,500</span>
+                           	<a href="${root }shop?gds=3">
+                            <span style="color:#B0871E;font-weight:bold">Sunflower</span><br>
+                       		</a>
+                            <span style="display: block;">맥시밀리언</span>
+                            <span>5,000</span>
                         </div> 
                     </div>
                 </div>
@@ -161,27 +161,6 @@
         </div>
     </div>
 </section>
-<hr style="margin: 50px;border:#ccc;"> 
-<section class="section">
-    <h2 class="semi-title">NEW 추천 아이템</h2>
-    <div class="section2_container" >
-        <div class="leaf1"><img src="${root }images/main/main_leaf1.png" ></div>
-        <div class="leaf2"><img src="${root }images/main/main_leaf2.png"></div>
-        <div class="leaf3"> <img src="${root }images/main/main_leaf3.png"></div>
-        <div class="leaf4"> <img src="${root }images/main/main_leaf4.png" style="transform:rotate(-5deg)"></div>
-        <div class="wrapper">
-             <span class="section2_title">플랜트 인테리어</span>
-             <span class="section2_desc">1월 추천 ITEM</span>
-        </div>
-        <div class="div1">
-            <ul>
-                <li><div class="box1"></div></li>
-                <li><div class="box2"></div></li>
-                <li><div class="box3"></div></li>
-            </ul>
-        </div>
-        
-    </div>
-</section>
+<%@include file="./footBar.jsp" %>
 </body>
 </html>

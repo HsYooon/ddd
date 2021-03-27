@@ -32,7 +32,7 @@ public class RootAppContext {
 		return new LoginUserDTO();
 	}
 	
-	  // 이메일 인증 
+	// 이메일 인증 
 	  
 	/*
 	 * @Bean public JavaMailSender getJavaMailSender() { Properties properties = new

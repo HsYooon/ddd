@@ -38,7 +38,7 @@
                  <input type="submit"  value="쿠폰번호등록">
             </form>		
 	    </div>
-        <div class="txt">쿠폰번호는 영문자+숫자 조합이며, 총 16자리 입니다. 예) ABCD-AB12-CD34-12E3</div>
+        <div class="txt">쿠폰번호는 영문자+숫자 조합이며, 총 16자리 입니다. 예) VVIP-VVIP-VVIP-VVIP</div>
     </div>
 	
 	
@@ -135,33 +135,7 @@
 	<br>
 	<br>
 	<br>
-<div class="paginate">
-            <ul>
-                <li>
-                    <dl>    
-                        <dt style="padding-bottom: 10px;">주문 할인쿠폰 적용방법</dt>
-                        <dd style="margin-left: 0px; ">
-                            주문서 쿠폰 선택에서 고객님이 보유하신 [쿠폰번호]를 선택하시면 할인금액(또는 적립금액)이 나타납니다.<br />
-                            (정률할인(적립)의 경우, 할인율(적립률)이 나타납니다.)
-                        </dd>
-                    </dl>
-                </li>
 
-                <li>
-                    <dl>    
-                        <dt style="padding-bottom: 10px; padding-top: 20px;">쿠폰 사용시 유의사항</dt>
-                        <dd style="margin-left: 0px;"> 
-                                <li type="none">1. 쿠폰마다 사용 가능 금액과 사용기한이 정해져 있으며, 1개 주문서에 1개의 쿠폰만을 사용하실 수 있습니다.</li>
-                                <li type="none">2. 쿠폰을 사용한 주문 후 반품/환불/취소의 경우 한번 사용하신 쿠폰은 다시 사용하실 수 없습니다.</li>
-                                <li type="none">3. 쿠폰 적용 품목 및 카테고리가 제한된 경우 해당 품목 또는 카테고리에서만 쿠폰을 사용하실 수 있습니다.</li>
-                                <li type="none">4. 할인/적립 쿠폰은 적립금할인 등을 제외한 실제 결제금액에 적용됩니다.</li>
-                                <li type="none">5. 모바일 아이콘 표시 쿠폰은 모바일에서만 사용이 가능합니다.</li>
-                            
-                        </dd>
-                    </dl>
-                </li>
-            </ul>
-        </div>
-
+<%@include file="./footBar.jsp" %>
 </body>
 </html>

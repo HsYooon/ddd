@@ -225,6 +225,11 @@
 	font-size: 1.5em;
 }
 
+#content{
+	font-size:20px;
+	padding: 10px 10px;
+}
+
 .btn-review-write:hover {
 	color: white;
 	background-color: rgb(132, 185, 209);
