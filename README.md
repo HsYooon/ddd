@@ -23,9 +23,9 @@
 
 #### [주요구현내용]
 
-| Issue | Content |
-| ------ | ------ |
-| 비밀번호 암호화 | ``` spring security ```|
-| 이메일 발송 | AWS SES |
-| 비동기 처리 | JQeury ajax , fetch API ,  사용 |
-| 상품 리뷰 | 사진처리 |
+| Service | Issue | Content |
+| ------  | ------ | ------ |
+| 회원가입 | 비밀번호 암호화 | ``` spring security ```|
+| 기념일 알림 | 이메일 발송 | AWS SES |
+| 장바구니 | 비동기 처리 | JQeury ajax , fetch API ,  사용 |
+| 상품 리뷰 | 이미지 관리 | 사진처리 |
