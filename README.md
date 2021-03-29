@@ -25,7 +25,7 @@
 
 | Service | Issue | Content |
 | ------  | ------ | ------ |
-| 회원 가입 | 비밀번호 보안 | ``` Spring Security ``` BCryptPasswordEncoder 사용 |
-| 기념일 알림 | 이메일 발송 | ``` AWS SDK ``` AmazonSimpleEmailService 사용 |
-| 장바구니 / 위시리스트 | 추가 삭제 시 비동기 처리 | JQeury ajax , fetch API 사용 |
-| 상품 리뷰 관리 | 이미지 업로드 및 불러오기 | MultipartFile |
+| 회원 가입 | 비밀번호 보안 | ``` Spring Security ``` BCryptPasswordEncoder 를 이용해 encode와 matches로 암호화 시켜 비밀번호 확인 |
+| 기념일 알림 | 이메일 발송 | ``` AWS SDK ``` AmazonSimpleEmailService 사용하여 인증받은 메일로 이벤트 알림 발송 |
+| 장바구니 / 위시리스트 | 추가 및 삭제시 비동기 처리 | JQeury ajax , fetch API 를 사용해 비동기 처리 구현 |
+| 상품 리뷰 관리 | 이미지 업로드 및 불러오기 | MultipartFile 인터페이스를 이용해 파일 이름을 추출, 업로드 날짜와 시간을 붙인 새로운 파일 생성해 중복 파일을 관리 |
